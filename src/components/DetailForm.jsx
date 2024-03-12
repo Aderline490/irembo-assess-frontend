@@ -464,7 +464,7 @@ const DetailForm = () => {
               <input
                 type="text"
                 className=" px-4 py-3 mt-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500 placeholder-black text-sm"
-                placeholder="Weight(kg)"
+                placeholder=""
                 value={weight}
                 onChange={(e) => setWeight(e.target.value)}
               />
@@ -496,7 +496,7 @@ const DetailForm = () => {
                   type="number"
                   min={1}
                   className=" px-4 py-3 mt-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500 placeholder-black text-sm"
-                  placeholder="Enter quantity of product"
+                  placeholder="Enter quantity"
                   value={quantity}
                   onChange={(e) => setQuantity(e.target.value)}
                   required
@@ -510,7 +510,7 @@ const DetailForm = () => {
               </label>
               <textarea
                 className="h-full px-4 py-3 mt-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500 placeholder-black text-sm"
-                placeholder="Enter product description"
+                placeholder=""
                 value={description}
                 onChange={(e) => setDescription(e.target.value)}
                 required
